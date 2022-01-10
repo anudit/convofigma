@@ -1,0 +1,19 @@
+
+<script>
+  onmessage = (event) => {
+    document.body.innerHTML+=`
+      <iframe
+        title="Comments Page"
+        src="https://theconvo.space/embed/dt?url=${encodeURIComponent('https://figma.com/')}&threadId=${event.data.pluginMessage}&height=400&theme=light"
+        loading="lazy"
+        width="100%"
+        height="500px"
+        allowtransparency="true"
+        style="overflow:hidden;border:none;"
+      >
+        Comments Page
+      </iframe>
+    `;
+  }
+</script>
+

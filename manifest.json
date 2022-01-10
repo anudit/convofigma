@@ -1,0 +1,12 @@
+{
+  "name": "Convo Space",
+  "id": "1062423750982615510",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma",
+    "figjam"
+  ],
+  "ui": "ui.html",
+  "enablePrivatePluginApi": true
+}
